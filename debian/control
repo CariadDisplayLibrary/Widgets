@@ -1,0 +1,19 @@
+Source: libdisplaycore-toolkit-widgets
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-toolkit-widgets
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Toolkits
+Depends: libdisplaycore-core
+Provides: Widgets.h
+Description: Widgets library
+ Basic widget set for DisplayCore
+
+
+

@@ -1,0 +1,12 @@
+Widgets.h libraries/DisplayCore/Widgets
+examples/ libraries/DisplayCore/Widgets
+twAnimIcon.cpp libraries/DisplayCore/Widgets
+twAnimIcon.h libraries/DisplayCore/Widgets
+twButton.cpp libraries/DisplayCore/Widgets
+twButton.h libraries/DisplayCore/Widgets
+twHBar.cpp libraries/DisplayCore/Widgets
+twHBar.h libraries/DisplayCore/Widgets
+twIcon.cpp libraries/DisplayCore/Widgets
+twIcon.h libraries/DisplayCore/Widgets
+twText.cpp libraries/DisplayCore/Widgets
+twText.h libraries/DisplayCore/Widgets
