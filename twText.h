@@ -20,7 +20,7 @@ class twText : public Widget {
             strncpy(_text, txt, 99);
         }
             
-        void setPixel(int x, int y, color_t c) {} // No drawing!
+        void setPixel(int __attribute__((unused)) x, int __attribute__((unused)) y, color_t __attribute__((unused)) c) {} // No drawing!
 
         void draw(DisplayCore *dev, int x, int y);
 

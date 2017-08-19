@@ -1,6 +1,6 @@
 #include <Widgets.h>
 
-void twHBar::draw(DisplayCore *dev, int x, int y) {
+void twHBar::draw(DisplayCore *dev, int __attribute__((unused)) x, int __attribute__((unused)) y) {
     dev->openWindow(_x, _y, _width, _height);
     int32_t pct = _value * (_width - 4) / (_max - _min);
 

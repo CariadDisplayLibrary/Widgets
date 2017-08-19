@@ -1,6 +1,6 @@
 #include <Widgets.h>
 
-void twButton::draw(DisplayCore *dev, int x, int y) {
+void twButton::draw(DisplayCore *dev, int __attribute__((unused)) x, int __attribute__((unused)) y) {
 	dev->setFont(_font);
 
     color_t bg = getValue() ? _bgHi : _bgLo;
