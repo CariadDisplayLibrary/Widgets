@@ -5,7 +5,7 @@
 
 class twButton : public Widget {
     private:
-        boolean _lastPressed;
+        bool _lastPressed;
 
         int _width;
         int _height;
