@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Toolkits
 Depends: libdisplaycore-core
 Provides: Widgets.h
-Description: Widgets library
+Description: Widgets
  Basic widget set for DisplayCore
 
 
