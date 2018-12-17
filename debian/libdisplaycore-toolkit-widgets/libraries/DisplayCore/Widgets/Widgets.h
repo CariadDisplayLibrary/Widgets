@@ -5,7 +5,6 @@
 
 #include "twButton.h"
 #include "twHBar.h"
-#include "twVBar.h"
 #include "twIcon.h"
 #include "twAnimIcon.h"
 #include "twText.h"

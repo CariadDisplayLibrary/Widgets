@@ -17,11 +17,6 @@ class twHBar : public Widget {
            _min(0), _max(100), _value(0), _border(Color::Blue), _scale(Color::Blue), _bg(Color::Black) {
             _width = w;
             _height = h;
-            _touch = true;
-            _sense_x = 0;
-            _sense_y = 0;
-            _sense_w = w;
-            _sense_h = h;
         }
 
         void draw(DisplayCore *dev, int x, int y);

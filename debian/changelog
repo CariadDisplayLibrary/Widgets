@@ -1,0 +1,60 @@
+libdisplaycore-toolkit-widgets (2.0.9) uecide; urgency=low
+
+  * Updated names
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sun, 28 Oct 2018 16:28:43 +0000
+
+libdisplaycore-toolkit-widgets (2.0.8) uecide; urgency=low
+
+  * Added comments and cleaned up buttons example
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sat, 14 Jul 2018 12:47:16 +0100
+
+libdisplaycore-toolkit-widgets (2.0.7) uecide; urgency=low
+
+  * Updated buttons example to use events
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sat, 14 Jul 2018 12:21:36 +0100
+
+libdisplaycore-toolkit-widgets (2.0.6) uecide; urgency=low
+
+  * New structure
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sun, 3 Jun 2018 16:41:49 +0100
+
+libdisplaycore-toolkit-widgets (2.0.5) uecide; urgency=low
+
+  * Added readme
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 3 Apr 2018 12:47:35 +0100
+
+libdisplaycore-toolkit-widgets (2.0.4) uecide; urgency=low
+
+  * Updated library.json
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 26 Feb 2018 20:57:01 +0000
+
+libdisplaycore-toolkit-widgets (2.0.3) uecide; urgency=low
+
+  * Renamed boolean to bool
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 16 Feb 2018 20:07:46 +0000
+
+libdisplaycore-toolkit-widgets (2.0.2) uecide; urgency=low
+
+  * Fixed warnings
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sat, 19 Aug 2017 16:56:44 +0100
+
+libdisplaycore-toolkit-widgets (2.0.1) uecide; urgency=low
+
+  * Added build files
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sat, 19 Aug 2017 13:21:47 +0100
+
+libdisplaycore-toolkit-widgets (2.0.0) uecide; urgency=low
+
+  * Initial import
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Wed, 16 Aug 2017 22:43:29 +0100
+

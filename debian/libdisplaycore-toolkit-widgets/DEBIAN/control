@@ -1,0 +1,13 @@
+Package: libdisplaycore-toolkit-widgets
+Version: 2.0.9
+Architecture: all
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Installed-Size: 33
+Depends: libdisplaycore-core
+Provides: Widgets.h
+Section: main
+Priority: extra
+Description: Widgets
+ Basic widget set for DisplayCore
+Group: DisplayCore
+Subgroup: Toolkits
