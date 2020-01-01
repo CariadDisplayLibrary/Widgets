@@ -10,3 +10,5 @@ twIcon.cpp libraries/DisplayCore/Widgets
 twIcon.h libraries/DisplayCore/Widgets
 twText.cpp libraries/DisplayCore/Widgets
 twText.h libraries/DisplayCore/Widgets
+twVBar.cpp libraries/DisplayCore/Widgets
+twVBar.h libraries/DisplayCore/Widgets
