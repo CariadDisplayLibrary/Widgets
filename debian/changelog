@@ -1,3 +1,21 @@
+libdisplaycore-toolkit-widgets (2.1.2) uecide; urgency=low
+
+  * Added vbar to install
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Wed, 1 Jan 2020 21:53:57 +0000
+
+libdisplaycore-toolkit-widgets (2.1.1) uecide; urgency=low
+
+  * Removed cruft
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 17 Dec 2018 16:23:41 +0000
+
+libdisplaycore-toolkit-widgets (2.1.0) uecide; urgency=low
+
+  * Added twVBar and made bars touch sensitive
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 17 Dec 2018 16:23:09 +0000
+
 libdisplaycore-toolkit-widgets (2.0.9) uecide; urgency=low
 
   * Updated names
