@@ -1,6 +1,6 @@
 #include <Widgets.h>
 
-void twVBar::draw(DisplayCore *dev, int __attribute__((unused)) x, int __attribute__((unused)) y) {
+void twVBar::draw(Cariad *dev, int __attribute__((unused)) x, int __attribute__((unused)) y) {
     dev->openWindow(_x, _y, _width, _height);
     int32_t pct = _value * (_height - 4) / (_max - _min);
 

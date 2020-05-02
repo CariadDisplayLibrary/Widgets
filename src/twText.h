@@ -14,7 +14,7 @@ class twText : public Widget {
         static const uint8_t AlignLeft = 0;
         static const uint8_t AlignRight = 1;
         static const uint8_t AlignCenter = 2;
-        twText(Touch &ts, DisplayCore &dev, int x, int y, color_t col, const uint8_t *f, const char *txt) : Widget(ts, dev, x, y), 
+        twText(Touch &ts, Cariad &dev, int x, int y, color_t col, const uint8_t *f, const char *txt) : Widget(ts, dev, x, y), 
             _color(col), _font(f), _align(AlignLeft) {
             memset(_text, 0, 100);
             strncpy(_text, txt, 99);
@@ -22,7 +22,7 @@ class twText : public Widget {
             
         void setPixel(int __attribute__((unused)) x, int __attribute__((unused)) y, color_t __attribute__((unused)) c) {} // No drawing!
 
-        void draw(DisplayCore *dev, int x, int y);
+        void draw(Cariad *dev, int x, int y);
 
         void initializeDevice() { }
 

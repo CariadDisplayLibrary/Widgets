@@ -19,7 +19,7 @@ class twAnimIcon : public Widget {
         color_t _bgColor;
 
     public:
-        twAnimIcon(Touch &ts, DisplayCore &dev, int x, int y, const char *txt, const uint16_t *data, const uint8_t *f) : 
+        twAnimIcon(Touch &ts, Cariad &dev, int x, int y, const char *txt, const uint16_t *data, const uint8_t *f) : 
             Widget(ts, dev, x, y), 
             _txt(txt), _data((const struct tsAnimIconData *)data), _font(f),
             _textColor(Color::White), _bgColor(Color::Black) {
@@ -30,7 +30,7 @@ class twAnimIcon : public Widget {
                 _sense_h = _data->height;
         }
 
-        void draw(DisplayCore *dev, int x, int y);
+        void draw(Cariad *dev, int x, int y);
 
         void setBackgroundColor(color_t c) { _bgColor = c; }
         void setTextColor(color_t c) { _textColor = c; }

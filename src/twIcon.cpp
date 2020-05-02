@@ -1,6 +1,6 @@
 #include <Widgets.h>
 
-void twIcon::draw(DisplayCore *dev, int x, int y) {
+void twIcon::draw(Cariad *dev, int x, int y) {
 
     if (isEnabled()) {
         dev->openWindow(x, y, _width, _height);

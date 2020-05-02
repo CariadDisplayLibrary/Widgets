@@ -20,7 +20,7 @@ class twButton : public Widget {
         color_t _blow;
 
     public:
-        twButton(Touch &ts, DisplayCore &dev, int x, int y, int w, int h, const char *txt) : 
+        twButton(Touch &ts, Cariad &dev, int x, int y, int w, int h, const char *txt) : 
             Widget(ts, dev, x, y), 
             _width(w), _height(h), _txt(txt),
             _fgHi(Color::Black), _fgLo(Color::Black),
@@ -34,7 +34,7 @@ class twButton : public Widget {
                 _sense_h = _height;
         }
 
-        void draw(DisplayCore *dev, int x, int y);
+        void draw(Cariad *dev, int x, int y);
 
         void setBackgroundColor(color_t c1, color_t c2) { _bgLo = c1; _bgHi = c2; }
         void setTextColor(color_t c1, color_t c2) { _fgLo = c1; _fgHi = c2; }

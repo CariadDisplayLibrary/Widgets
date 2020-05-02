@@ -1,6 +1,6 @@
 #include <Widgets.h>
 
-void twButton::draw(DisplayCore *dev, int __attribute__((unused)) x, int __attribute__((unused)) y) {
+void twButton::draw(Cariad *dev, int __attribute__((unused)) x, int __attribute__((unused)) y) {
 	dev->setFont(_font);
 
     color_t bg = getValue() ? _bgHi : _bgLo;

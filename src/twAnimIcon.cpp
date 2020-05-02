@@ -1,6 +1,6 @@
 #include <Widgets.h>
 
-void twAnimIcon::draw(DisplayCore *dev, int x, int y) {
+void twAnimIcon::draw(Cariad *dev, int x, int y) {
 
     int v = getValue();
     if (v >= _data->frames) {

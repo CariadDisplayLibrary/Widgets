@@ -13,7 +13,7 @@ class twVBar : public Widget {
         color_t _bg;
 
     public:
-        twVBar(Touch &ts, DisplayCore &dev, int x, int y, int w, int h) : Widget(ts, dev, x, y),
+        twVBar(Touch &ts, Cariad &dev, int x, int y, int w, int h) : Widget(ts, dev, x, y),
            _min(0), _max(100), _value(0), _border(Color::Blue), _scale(Color::Blue), _bg(Color::Black) {
             _width = w;
             _height = h;
@@ -24,7 +24,7 @@ class twVBar : public Widget {
             _sense_h = h;
         }
 
-        void draw(DisplayCore *dev, int x, int y);
+        void draw(Cariad *dev, int x, int y);
 
         void setBorderColor(color_t c) { _border = c; }
         void setScaleColor(color_t c) { _scale = c; }
